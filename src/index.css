@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.supplier-item {
+    background-color: #27272a; 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    padding: 0.5rem; 
+    border-radius: 0.5rem; 
+}
+
+.supplier-item__id,
+.supplier-item__company-name,
+.supplier-item__contact-title,
+.supplier-item__address,
+.supplier-item__phone,
+.supplier-item__postal-code {
+    color: white; 
+}
+
+.supplier-item__id{
+    font-weight: bold;
+}
+
+.supplier-item__details{
+    text-align: center;
+}
+
+.supplier-item__details {
+    color: #3b82f6; 
+    text-decoration: none;
+}
+
+.supplier-item__delete {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+}

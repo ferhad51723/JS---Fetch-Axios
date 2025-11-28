@@ -11,5 +11,52 @@
 }
 
 .details {
+  margin: auto;
   max-width: 42rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.details__company-name {
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity, 1));
+}
+
+.details__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.details__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.details__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.details__label {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+.details__go-back {
+  margin: auto;
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity, 1));
+  padding: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }

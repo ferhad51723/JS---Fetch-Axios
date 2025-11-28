@@ -12,5 +12,53 @@
 
 .details{
     @apply
-    max-w-2xl;
+    max-w-2xl
+    m-auto
+    pt-4
+    pb-4;
+}
+
+.details__company-name{
+    @apply
+    pb-4
+    font-bold
+    text-5xl
+    text-center
+    text-green-600;
+}
+
+.details__info{
+    @apply
+    flex
+    flex-col
+    gap-4
+    justify-center
+}
+
+.details__list{
+    @apply
+    flex
+    flex-col
+    gap-2
+}
+
+.details__item{
+    @apply
+    flex
+    items-center
+    gap-4;
+}
+
+.details__label{
+    @apply
+    font-bold
+    text-xl
+}
+
+.details__go-back{
+    @apply
+    p-2
+    m-auto
+    bg-neutral-800
+    text-white;
 }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/addsupplier.css">
+    <script src="js/addsupplier.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__logo">SuppLier</h1>
+
+        <nav>
+            <ul class="header__list">
+                <li>
+                    <a href="index.html" class="header__link">Home</a>
+                </li>
+                <li>
+                    <a href="suppliers-list.html" class="header__link">SuppLier List</a>
+                </li>
+                <li>
+                    <a href="addsupplier.html" class="header__link">Add SuppLier</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="supplier-form-page">
+        <h1 class="supplier-form-page__title">Add Supplier</h1>
+
+        <form class="supplier-form" method="POST" action="#">
+
+            <div class="supplier-form__group">
+                <label for="company-name" class="supplier-form__label">Company Name</label>
+                <input class="supplier-form__input" id="company-name" type="text" required>
+            </div>
+
+            <div class="supplier-form__group">
+                <label for="contact-title" class="supplier-form__label">Contact Title</label>
+                <input class="supplier-form__input" id="contact-title" type="text" required>
+            </div>
+
+            <div class="supplier-form__group">
+                <label for="country" class="supplier-form__label">Country</label>
+                <input class="supplier-form__input" id="country" type="text" required>
+            </div>
+
+            <div class="supplier-form__group">
+                <label for="phone" class="supplier-form__label">Phone</label>
+                <input class="supplier-form__input" id="phone" type="tel" required>
+            </div>
+
+            <div class="supplier-form__group">
+                <label for="postal-code" class="supplier-form__label">Postal Code</label>
+                <input class="supplier-form__input" id="postal-code" type="text" required>
+            </div>
+
+            <button type="submit" class="supplier-form__btn">
+                Add New Supplier
+            </button>
+        </form>
+    </main>
+
+</body>
+
+</html>

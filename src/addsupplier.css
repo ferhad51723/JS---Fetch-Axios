@@ -1,0 +1,33 @@
+/* ==== PAGE CONTAINER ==== */
+.supplier-form-page {
+    @apply m-auto pt-5 pb-5 max-w-2xl;
+}
+
+.supplier-form-page__title {
+    @apply font-bold text-4xl text-green-600 text-center;
+}
+
+/* ==== FORM ==== */
+.supplier-form {
+    @apply pt-4 pb-4 flex flex-col gap-4;
+}
+
+/* ==== FORM GROUP ==== */
+.supplier-form__group {
+    @apply m-auto w-2/4 flex justify-between items-center;
+}
+
+/* ==== LABEL ==== */
+.supplier-form__label {
+    @apply font-semibold;
+}
+
+/* ==== INPUT ==== */
+.supplier-form__input {
+    @apply p-2 bg-zinc-300;
+}
+
+/* ==== BUTTON ==== */
+.supplier-form__btn {
+    @apply w-fit p-2 m-auto bg-green-600 text-white;
+}

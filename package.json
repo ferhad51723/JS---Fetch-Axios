@@ -1,14 +1,13 @@
 {
-  "name": "fronend-mentor",
+  "name": "task",
   "version": "1.0.0",
-  "description": "Simple setup for Frontendmentor challenge.",
+  "description": "",
   "main": "tailwind.config.js",
   "scripts": {
     "dev": "postcss ./src --dir ./dist/css --watch"
   },
   "keywords": [
-    "tailwind",
-    "frontend-mentor"
+    "tailwind"
   ],
   "author": "",
   "license": "ISC",
